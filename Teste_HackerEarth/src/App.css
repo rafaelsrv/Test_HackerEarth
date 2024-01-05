@@ -6,4 +6,29 @@
   background-color: gray;
   height: 100vh;
   width: 100vw;
+  
+  
+}
+.tables{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.searchInput{
+  margin: 5px;
+  width: 30rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+th,
+tr
+{
+  
+  padding: 5px;
+  border: 1px solid black;
 }
