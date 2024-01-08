@@ -12,22 +12,23 @@ function App() {
  
 
   
-   
+   // Tentativa de fazer o código somente em JS, muito difícil.
   async function Search (){
 
     await fetch(url).then(resp => resp.json()).then(data =>
       setClientData(data))
+      
       
 
   }
 
   useEffect(()=>{
     Search()
+    
 
   },[])
-  console.log(searchData)
- 
-
+  
+  console.log(clientData)
 
   
   
